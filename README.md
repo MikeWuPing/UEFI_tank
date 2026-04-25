@@ -14,6 +14,7 @@
 坦克大战（1990 经典版）是一款在 **UEFI Shell** 环境下运行的俯视角固定地图坦克射击游戏，复刻了 1990 年红白机经典《坦克大战》（Battle City）的核心玩法。
 
 游戏采用 UEFI **GOP（Graphics Output Protocol）** 进行纯软件图形渲染，在 QEMU + OVMF 虚拟机环境下运行，亦可部署到真实 UEFI 固件中。
+
 <img width="624" height="469" alt="short1" src="https://github.com/user-attachments/assets/11b53fe5-207c-45f7-a23a-146b3cfddfc8" />
 
 <img width="640" height="505" alt="Snipaste_2026-04-25_16-06-12" src="https://github.com/user-attachments/assets/7a9ee05c-627a-4f64-b878-ab43fa42eae0" />
