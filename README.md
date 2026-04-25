@@ -7,31 +7,17 @@
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 [**📖 English Version**](README_EN.md)
+<img width="640" height="505" alt="Snipaste_2026-04-25_16-06-12" src="https://github.com/user-attachments/assets/7a9ee05c-627a-4f64-b878-ab43fa42eae0" />
+<img width="640" height="505" alt="Snipaste_2026-04-25_16-06-36" src="https://github.com/user-attachments/assets/003bc412-f703-43e1-a599-a132e183b8bd" />
 
----
-
-## 📖 目录
-
-- [产品概述](#-产品概述)
-- [系统要求](#-系统要求)
-- [快速开始](#-快速开始)
-- [游戏操作](#-游戏操作)
-- [游戏系统](#-游戏系统)
-- [界面说明](#-界面说明)
-- [视觉特效](#-视觉特效)
-- [技术架构](#-技术架构)
-- [版本历史](#-版本历史)
-- [未来计划](#-未来计划)
-- [故障排除](#-故障排除)
-- [许可证](#-许可证)
-
----
 
 ## 📖 产品概述
 
 坦克大战（1990 经典版）是一款在 **UEFI Shell** 环境下运行的俯视角固定地图坦克射击游戏，复刻了 1990 年红白机经典《坦克大战》（Battle City）的核心玩法。
 
 游戏采用 UEFI **GOP（Graphics Output Protocol）** 进行纯软件图形渲染，在 QEMU + OVMF 虚拟机环境下运行，亦可部署到真实 UEFI 固件中。
+<img width="624" height="469" alt="short1" src="https://github.com/user-attachments/assets/11b53fe5-207c-45f7-a23a-146b3cfddfc8" />
+
 
 ### 核心玩法
 
