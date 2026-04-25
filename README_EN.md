@@ -10,28 +10,18 @@
 
 ---
 
-## 📖 Table of Contents
-
-- [Overview](#-overview)
-- [System Requirements](#-system-requirements)
-- [Quick Start](#-quick-start)
-- [Controls](#-controls)
-- [Game Systems](#-game-systems)
-- [User Interface](#-user-interface)
-- [Visual Effects](#-visual-effects)
-- [Technical Architecture](#-technical-architecture)
-- [Version History](#-version-history)
-- [Roadmap](#-roadmap)
-- [Troubleshooting](#-troubleshooting)
-- [License](#-license)
-
----
 
 ## 📖 Overview
 
 Tank Battle (1990 Classic Edition) is a top-down fixed-map tank shooting game running natively in the **UEFI Shell** environment, faithfully recreating the core gameplay of the classic 1990 NES game *Battle City*.
 
 The game uses UEFI **GOP (Graphics Output Protocol)** for pure software graphics rendering, runs on QEMU + OVMF virtual machines, and can also be deployed to real UEFI firmware.
+
+<img width="624" height="469" alt="short1" src="https://github.com/user-attachments/assets/11b53fe5-207c-45f7-a23a-146b3cfddfc8" />
+
+<img width="640" height="505" alt="Snipaste_2026-04-25_16-06-12" src="https://github.com/user-attachments/assets/7a9ee05c-627a-4f64-b878-ab43fa42eae0" />
+<img width="640" height="505" alt="Snipaste_2026-04-25_16-06-36" src="https://github.com/user-attachments/assets/003bc412-f703-43e1-a599-a132e183b8bd" />
+
 
 ### Core Gameplay
 
