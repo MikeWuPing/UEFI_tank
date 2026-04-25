@@ -1,0 +1,30 @@
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = Tank
+  FILE_GUID                      = A1B2C3D4-E5F6-7890-ABCD-EF1234567890
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[BuildOptions]
+  MSFT:*_*_*_CC_FLAGS = /wd4819 /source-charset:utf-8 /wd4100 /wd4101 /wd4204 /wd4305 /wd4244 /wd4090
+  MSFT:*_*_*_LINK_FLAGS = /SUBSYSTEM:EFI_APPLICATION
+
+[Sources]
+  main.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+
+[LibraryClasses]
+  UefiLib
+  UefiApplicationEntryPoint
+  BaseLib
+  BaseMemoryLib
+  MemoryAllocationLib
+  UefiBootServicesTableLib
+  UefiRuntimeServicesTableLib
+
+[Protocols]
+  gEfiGraphicsOutputProtocolGuid
