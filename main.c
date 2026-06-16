@@ -1581,7 +1581,6 @@ UefiMain (
   EFI_STATUS Status;
   UINTN Mode, InfoSize, BestMode;
   EFI_GRAPHICS_OUTPUT_MODE_INFORMATION *Info;
-  UINTN Index;
   EFI_INPUT_KEY Key;
   UINT32 dbgFrame;
 
@@ -1670,7 +1669,7 @@ UefiMain (
         INT16 nextStage = mGame.map.stage + 1;
         if (nextStage > 35) {
           mGame.state = GS_VICTORY;
-          mGame.stageIntro = 300;
+          mGame.stageIntro = (UINT8)300;
         } else {
           mGame.lives = MIN(mGame.lives + 1, 9);
           InitGame(nextStage);
